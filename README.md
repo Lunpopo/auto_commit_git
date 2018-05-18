@@ -15,8 +15,8 @@ follow configuration item, example:
 local_branch='lunpopo'                  => modify to local_branch='your_local_branch_name'
 #remote branch name, modify this default item to your remote branch name
 remote_branch='log_new'                 => modify to remote_branch='your_remote_branch_name'
-#program dir, modify this default item to your program dir
-program_pwd='/home/popo_program'        => modify to project_pwd='your_program_dir'
+#project dir, modify this default item to your project dir
+project_pwd='/home/popo_program'        => modify to project_pwd='your_project_dir'
 ```
 
 ## auto_commit_git_one_branch.sh
@@ -28,6 +28,6 @@ fllow configuration item, example:
 
 #remote branch name, modify this default item to your remote branch naem
 remote_branch='log'                     => modify to remote_branch='your_remote_branch_name'
-#project path, modify this default item to your program path
+#project path, modify this default item to your project path
 project_pwd='/home/popo_program'        => modify to project_pwd='your_project_path'
 ```
