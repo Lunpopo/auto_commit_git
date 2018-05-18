@@ -16,10 +16,10 @@ local_branch='lunpopo'                  => modify to local_branch='your_local_br
 #remote branch name, modify this default item to your remote branch name
 remote_branch='log_new'                 => modify to remote_branch='your_remote_branch_name'
 #program dir, modify this default item to your program dir
-program_pwd='/home/popo_program'        => modify to program_pwd='your_program_dir'
+program_pwd='/home/popo_program'        => modify to project_pwd='your_program_dir'
 ```
 
-##auto_commit_git_one_branch.sh
+## auto_commit_git_one_branch.sh
 ```
 this bash script is appropriate for that only one branch, such as master branch
 
@@ -28,6 +28,6 @@ fllow configuration item, example:
 
 #remote branch name, modify this default item to your remote branch naem
 remote_branch='log'                     => modify to remote_branch='your_remote_branch_name'
-#program dir, modify this default item to your program dir
-program_pwd='/home/popo_program'        => modify to program_pwd='your_program_dir'
+#project path, modify this default item to your program path
+project_pwd='/home/popo_program'        => modify to project_pwd='your_project_path'
 ```
